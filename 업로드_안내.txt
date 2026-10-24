@@ -1,0 +1,7 @@
+1. GitHub 저장소 https://github.com/eunkwang9191-code/eco-reflection-test 에 로그인합니다.
+2. main 브랜치의 저장소 최상위 위치에 index.html, sw.js 두 파일을 올리고 Commit changes를 누릅니다.
+3. 이미 올라간 card_*.webp 이미지와 다른 파일은 삭제하지 않습니다.
+4. https://eunkwang9191-code.github.io/eco-reflection-test/?v=7 에서 검사 후 저장 동의하고 시험 제출합니다.
+5. Google Sheets에 설문응답 시트와 기록이 생겼는지 직접 확인합니다.
+주의: 브라우저의 no-cors 요청은 서버 저장 성공 여부를 알 수 없으므로 Google Sheets에서 반드시 확인해야 합니다.
+학생 이름이 포함되므로 시트의 공유 설정은 비공개로 유지하세요.
