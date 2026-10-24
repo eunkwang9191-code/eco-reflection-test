@@ -1,0 +1,9 @@
+환경 성찰 검사 업데이트: 학생 정보 입력 및 사전·사후 자동 연결
+
+1. 기존 GitHub 저장소 main 브랜치 최상위에 index.html, sw.js를 새 파일로 교체 업로드 후 Commit changes 하세요.
+2. Google Sheets > 확장 프로그램 > Apps Script에서 GoogleAppsScript_Code.gs를 기존 코드 대신 붙여 넣고 저장 후 웹앱을 새 버전으로 재배포하세요. 이전 Apps Script 코드를 그대로 쓰면 반·학년·이름을 기준으로 매칭하지 못합니다.
+3. index.html의 SUBMISSION_ENDPOINT 문자열 PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE를 배포한 Apps Script /exec 주소로 교체해야 자동 저장됩니다.
+4. 시크릿 창이나 새로고침으로 확인한 후 교사 계정으로 사전/사후 각각 한 번씩 제출하여 시트에서 매칭 상태 확인하세요.
+5. 반·학년·이름 조합이 동일하면 같은 학생으로 연결됩니다. 한 학생이 반이나 학년을 변경하거나 이름 표기가 바뀌면 연결이 안 될 수 있으니 교사가 정리해야 합니다.
+6. 학생 이름이 저장되므로 동의를 받고 비공개 시트로 운영하세요. 임의 공개 GitHub 저장소나 QR 페이지에 시트 데이터·학생 이름을 올리지 마세요.
+7. QR 주소는 이전과 동일합니다.
