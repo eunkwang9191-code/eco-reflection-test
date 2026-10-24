@@ -1,0 +1,25 @@
+{
+  "name": "나의 환경 실천 유형 테스트",
+  "short_name": "환경 성찰 검사",
+  "description": "최근 14일의 생활을 돌아보는 20문항 환경 성찰 검사",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eff5ed",
+  "theme_color": "#103a2a",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
